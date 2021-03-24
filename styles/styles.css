@@ -9,8 +9,6 @@ h1 {
   letter-spacing: 12px;
 }
 
-
-
 .container-fluid {
   padding-top: 8%;
   padding-bottom: 8%;
@@ -24,8 +22,6 @@ h1 {
 .girl-desktop {
   width: 100%;
 }
-
-
 
 .header-first {
   font-size: 4.3rem;
@@ -106,7 +102,6 @@ h1 {
 }
 
 .form-button:hover {
-
   background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 80%, 86%));
   box-shadow: 0 10px 17px hsl(0, 30%, 85%);
 }
@@ -138,72 +133,55 @@ small {
 .validation-icons {
   width: 24px;
   position: absolute;
-  left: 37%;
-  bottom: 1%;
+  left: 64%;
+  top: 29%;
 }
 
+@media only screen and (max-width: 574px) {
+  body {
+    max-width: 500px;
+  }
 
+  .box-layer {}
 
+  .button-arrow {
+    padding: 10px 20px;
+  }
 
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  .content {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
+  .form-copy {
+    font-size: .9rem;
+    text-align: center;
+  }
 
-  @media only screen and (max-width: 574px ) {
-    body {
-      max-width: 500px;
-    }
+  .girl-mobile {
+    margin-top: 10%;
+  }
 
-    .box-layer {
-
-    }
-
-    .button-arrow {
-      padding: 10px 20px;
-    }
-
-    .container-fluid {
-      padding-left: 0;
-      padding-right: 0;
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .content {
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-
-
-
-    .form-copy {
-      font-size: .9rem;
-      text-align: center;
-    }
-
-    .girl-mobile {
-      margin-top: 10%;
-    }
-
-    .header-first {
-      font-size: 2.5rem;
-      text-align: center;
-    }
-
-
-
+  .header-first {
+    font-size: 2.5rem;
+    text-align: center;
+  }
 
   .logo {
     position: absolute;
     bottom: 93%;
-
   }
 
   .row {
     padding: 0;
   }
-
-
-  }
-
-  }
+}
+}
 }
